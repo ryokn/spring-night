@@ -1,0 +1,33 @@
+{
+  "name": "vscode-spring-night",
+  "displayName": "Spring Night",
+  "description": "Calm-colored dark color scheme for VSCode, ported from vim-color-spring-night",
+  "version": "1.0.0",
+  "publisher": "spring-night",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "spring-night"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhysd/vim-color-spring-night"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spring Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spring-night-color-theme.json"
+      }
+    ]
+  }
+}
